@@ -1,0 +1,38 @@
+{
+  "cosmosDBDirectConnectionNoPartition": [
+    { "endpoint": "<Cosmos DB endpoint>" },
+    { "key": "<Cosmos DB key>"},
+    { "databaseId": "<Database Name>"},
+    { "containerId": "<Container Name>" },
+    { "partitionKey": { "kind": "Hash", "paths": ["/PartitionID"] } },
+    { "clientOptions": { "consistencyLevel": "Eventual" } },
+    { "preferredLocations" : ["Central India" , "North Central US"] }
+  ],
+  "cosmosDBDedicatedGatewayNoPartition": [
+    { "endpoint": "<Cosmos DB endpoint>" },
+    { "key": "<Cosmos DB key>"},
+    { "databaseId": "<Database Name>"},
+    { "containerId": "<Container Name>" },
+    { "partitionKey": { "kind": "Hash", "paths": ["/PartitionID"] } },
+    { "clientOptions": { "consistencyLevel": "Eventual" } },
+    { "preferredLocations" : ["Central India" , "North Central US"] }
+  ],
+  "cosmosDBDirectConnectionWithPartition": [
+    { "endpoint": "<Cosmos DB endpoint>" },
+    { "key": "<Cosmos DB key>"},
+    { "databaseId": "<Database Name>"},
+    { "containerId": "<Container Name>" },
+    { "partitionKey": { "kind": "Hash", "paths": ["/PartitionID"] } },
+    { "clientOptions": { "consistencyLevel": "Eventual" } },
+    { "preferredLocations" : ["Central India" , "North Central US"] }
+  ],
+  "cosmosDBDedicatedGatewayWithPartition": [
+    { "endpoint": "<Cosmos DB endpoint>" },
+    { "key": "<Cosmos DB key>"},
+    { "databaseId": "<Database Name>"},
+    { "containerId": "<Container Name>" },
+    { "partitionKey": { "kind": "Hash", "paths": ["/PartitionID"] } },
+    { "clientOptions": { "consistencyLevel": "Eventual" } },
+    { "preferredLocations" : ["Central India" , "North Central US"] }
+  ]
+}

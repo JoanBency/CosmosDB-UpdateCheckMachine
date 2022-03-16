@@ -1,0 +1,4 @@
+node_modules
+Documents/*
+logs/*
+Json_Files/cosmosDBConnectionSettingsDev.json
